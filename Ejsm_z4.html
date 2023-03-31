@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta P-EQUIV="content-type" CONTENT="text/html; CHARSET=UTF-8">
+            <link href="ramki.css" rel="stylesheet" type="text/CSS">
+            <style>
+
+                b{
+                    font-size: 20px;
+                }
+            </style>
+        </head>
+
+        <body>
+            <ol>
+                <li> <b> <u> Zewnętrzny </u>arkusz stylów </b> </li>
+                <div class="kod">
+                    &lt;head&gt; <br> 
+                    &ensp;&ensp;  &lt;link rel="Stylesheet" type="text/css" href="style.css"&gt; <br>
+                    &lt;/head&gt;
+                </div>
+
+                <li> <b> Styl <u> Lokalny </u> inaczej: (styl wpisany, liniowy, linijkowy, w linii)czyli dopisanie arkusza do wybranego bloku treści strony. </b> </li>
+                <div class="kod">
+                        &lt;selektor style="cecha1: wartość1; cecha2: wartość2;"&gt; ... &lt;/selektor&gt;
+                </div>
+
+                <li> <b> <u> Wewnętrzny </u> arkusz stylów </b> </li>
+                <div class="kod">
+                    &lt;head&gt; <br> 
+                    &ensp;&ensp; &lt;style type="text/css"&gt; <br>
+                    &ensp;&ensp;&ensp;&ensp; selektor1 { cecha: wartość; cecha2: wartość2; } <br>
+                    &ensp;&ensp;&ensp;&ensp; selektor2 { cecha: wartość; cecha2: wartość2; } <br> 
+                    &ensp;&ensp;   &lt;/style> <br> 
+                    &lt;/head&gt;
+                </div>
+
+                <li> <b> <u> Alternatywny </u> arkusz stylów </b> </li>
+                <div class="kod">
+                    &lt;head&gt; <br> 
+                    &ensp;&ensp; &lt;link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna"&gt; <br>
+                    &ensp;&ensp; &lt;link rel="Alternate stylesheet"type="text/css" href="style1.css" title="Nazwa1"&gt; <br> 
+                    &ensp;&ensp; &lt;link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa2"&gt; <br>
+                    &lt;/head&gt;
+                </div>
+
+                <li> <b> <u> Import </u> arkusza stylów </b> </li>
+                <div class="kod">
+                    &lt;style type="text/css"&gt; <br> 
+                    &ensp;&ensp;    @import url(adres_zewnetrzny_stylow); <br> 
+                    &lt;/style&gt; 
+                </div>
+            </ol>
+
+            <!--Wiktor Ejsmont 06-03-2023--> 
+        </body>
+    </html>
