@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta P-EQUIV="content-type" CONTENT="text/html; CHARSET=UTF-8">
+            <link href="teoria.css" rel="stylesheet" type="text/CSS">
+            <style>
+                td{
+                    padding: 5px;
+                }
+                img{
+                    width: 600px;
+                    height: 350px;
+                }
+            </style>
+        </head>
+        <body>
+            <h1> Model pudełkowy </h1>
+
+            <ol> 
+                <h2> <li> Definicja modelu pudełkowego  </li> </h2>
+                <p> Jest to prostokątny obszar każdego elementu dokumentu HTML nazywany pudełkiem (ang. Box Model) </p>
+
+                <h2> <li> Zawartość modelu pudełkowego </li> </h2>
+                <p>
+                    <table border="1" align="center">
+					<tr> 
+						<td> <h3> Zawartość </h3> </td>
+						<td> <h3> Opis </h3> </td>
+					</tr>
+                    <tr>
+                        <td> Content </td>
+                        <td> Zawartość elementu </td>
+                    </tr>
+                    <tr>
+                        <td> Padding </td>
+                        <td> Odstęp między obramowanie a zawartością elemetu </td>
+                    </tr>
+                    <tr>
+                        <td> Border </td>
+                        <td> Obramowanie wokół zawartości elementu </td>
+                    </tr>
+                    <tr>
+                        <td> Margin </td>
+                        <td> Pusty obszar wokół ramki, który jest przźroczysty </td>
+                    </tr>
+					</table>
+                </p>
+
+                <h2> <li> Uwagi na temat modelu pudełkowego </li> </h2>
+                <p> Uwaga 1: <br>
+                    Padding, border i margin mogą mieć zerową wartość. <br>
+                    Uwaga 2: <br> 
+                    Tło elementu jest określone dla wszystkich z podanych powyżej obszarów z wyjątkiem marginesów zewnętrznych, które zawsze są przezroczyste (transparent).
+                </p>
+
+                <h2> <li> Grafika obrazująca model pudełkowy </li> </h2>
+                <p>
+                    <img src="Ejsm_z32_boxmodel.png">
+                </p>
+
+                <h2> <li> Różnice między paddingiem a marginesem </li> </h2>
+                <p> Padding określa przestrzeń wokół danego elementu, np: &lt;p&gt; lub &lt;div&gt; , natomiast margines przestrzeń pomiędzy elementami. <br> 
+                <img src="Ejsm_z32_paddingdiff.png"> <br>
+                Jak widać na rysunku, padding oznaczony jest kolorem niebieskim. Określa on wielkość przestrzeni wokół elementu &lt;p&gt;. Element ten posiada również margines zaznaczony kolorem pomarańczowym. Jest to odległość od brzegu elementu &lt;body&gt;.
+                </p>
+            </ol>
+
+        <!--Wiktor Ejsmont 2023--> 
+        </body>
+    </html>

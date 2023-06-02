@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta P-EQUIV="content-type" CONTENT="text/html; CHARSET=UTF-8">
+            <link href="ramki.css" rel="stylesheet" type="text/CSS">
+            <link href="teoria.css" rel="stylesheet" type="text/CSS">  
+        </head>
+        
+        <body>
+            <h1> Selektory DIV i SPAN </h1>
+            
+            <ol>
+                <h2> <li> Opis znacznika DIV </li> </h2>
+                    <p> Znacznik DIV jest elementem blokowym. Składa się z 2 znaczników DIV (otwierający i zamykający).
+                    <div class="kod">
+                        &lt;body&gt; <br> 
+                        &ensp;&ensp; &lt;div&gt; <br>
+                        &ensp;&ensp;&ensp;&ensp; Zawartość DIVa... <br>
+                        &ensp;&ensp; &lt;/div&gt; <br>
+                        &lt;/body&gt;
+                    </div>
+                        Może zawierać wewnątrz siebie zwykły tekst, jak również inne elementy blokowe. <br> 
+                        Został on pomyślany do tworzenia obszerniejszych struktur. <br>
+                        Służy do utworzenia sekcji (bloku) w pliku HTML w celu ich sformatowania za pomocą arkusza stylów CSS. <br>
+                        Można mu przypisać następujące atrybuty: Align, Class, Dir, ID, Lang, Style, Title. <br> 
+                        Atrybut ALIGN określa położenie DIVa na stronie i  może przyjąć następujące wartości: Center(wyśrodkowanie), justify(wyrówanie do obu marginesów), left(wyrówanie do lewej), right(wyrówanie do prawej).
+                    </p>
+
+                <h2> <li> Opis znacznika SPAN </li> </h2>
+                    <p> 
+                        Znacznik SPAN jest elementem liniowym. Składa się z 2 znaczników SPAN (otwierający i zamykający). 
+                    <div class="kod">
+                        &lt;body&gt; <br>
+                        &ensp;&ensp;    &lt;span&gt; <br>
+                        &ensp;&ensp;&ensp;&ensp;       Tekst... <br>
+                        &ensp;&ensp;    &lt;/span&gt; <br>
+                        &lt;/body&gt;
+                    </div>
+                    Nie może zawierać elementów blokowych, ale może inne elementy wyświetlane w linii oraz zwykły tekst. <br>
+                    Jeśli chcemy w paragrafie część tekstu wyróżnić czerwonym kolorem, do wyodrębnienia tego tekstu nie możemy użyć elementu div (paragraf z zasady nie może zawierać elementów blokowych) tylko span.
+                    </p>
+                <h2> <li> Różnica między znacznikami DIV  i  SPAN </li> </h2>
+                    <p>Obydwa elementy służą jedynie do wyodrębniania części struktury dokumentu, aby docelowo na przykład poprzez arkusze styli osiągnąć zamierzony wygląd strony. Span'em wyodrębniamy elementy liniowe (najczęściej fragmenty tekstu) a divem blokowe (blokowe elementy, większe fragmenty struktury składające się na układ strony)
+                    Dodatkowo DIV domyślnie jest wyświetlany w bloku. Natomiast SPAN w linii. </p>
+                <h2> <li> Opisz oraz wymień elementy/tagi: </li> </h2>
+                    <ol>
+                        <h2> <li> Liniowe </li> </h2>
+                            <p> Elementy liniowenie spowodują przejścia do nowej linii, będą wyświetlać się obok siebie, w jednej linii. Domyślnie, elementom liniowym przeglądarka ustawia właściwość "display" na "inline". </p>
+                        <h2> <li> Blokowe </li> </h2>
+                            <p> Elementy blokowez kolei będą zachowywać się jak pudełka, które ustawiasz jeden pod drugim, a więc nigdy nie wyświetlą się obok siebie. Domyślnie, elementom blokowym przeglądarka ustawia właściwość "display" na "block". </p>
+                        <h2> <li> Blokowo-liniowe </li> </h2> 
+                            <p> Elementy liniowo-blokowez kolei będą zachowywać się jak liniowe, jeśli chodzi o położenie (a więc wyświetlać będą się obok siebie), natomiast różnią się od nich tym, że możesznadać im różne wielkości. Ma to sens, np. textarea wyświetla się jako duży prostokąt i zdecydowanie "wychodzi" poza pojedynczą linijkę tekstu.Domyślnie, elementomliniowo blokowymprzeglądarka ustawia właściwość "display"  na "inline-block" </p>
+                    </ol>
+            </ol>
+
+        </body>
+    </html>
+    <!--Wiktor Ejsmont 2023--> 
